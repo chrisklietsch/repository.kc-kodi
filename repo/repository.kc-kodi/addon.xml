@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kc-kodi" name="KC-Kodi Repository" provider-name="KC-Kodi" version="1.0.0">
+	<extension point="xbmc.addon.repository" name="KC-Kodi Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/chrisklietsch/repository.kc-kodi/main/repo/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/chrisklietsch/repository.kc-kodi/main/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/chrisklietsch/repository.kc-kodi/main/repo/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<description lang="en">KC-Kodi Repository - Video Streaming, IPTV and Add-ons</description>
+		<description lang="de">KC-Kodi Repository - Video Streaming, IPTV und Add-ons</description>
+		<website>https://github.com/chrisklietsch/repository.kc-kodi</website>
+		<source>https://github.com/chrisklietsch/repository.kc-kodi</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
