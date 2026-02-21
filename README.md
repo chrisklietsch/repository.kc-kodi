@@ -64,8 +64,8 @@ Das Repository enthält folgende Add-on-Kategorien:
 
 ### Video-Plugins
 - `plugin.video.stalkermod` - Stalker IPTV Plugin
-- `plugin.video.xstream` - xStream Video Plugin
-- `plugin.video.xship` - xShip Video Streaming
+- `plugin.video.xstream` - xStream Video Plugin (angepasster Clone mit aktualisierten Sites)
+- `plugin.video.xship` - xShip Video Streaming (angepasster Clone mit aktualisierten Scrapern)
 - `plugin.video.vavooto` - Vavooto Video Service
 - `plugin.video.tools` - Video Tools & Utilities
 
@@ -145,6 +145,18 @@ Dieses Repository basiert auf der Michaz1988 Vorlage und teilt die Community-Nut
 
 ⚠️ Dieses Repository kann inoffizieller Inhalte enthalten. Die Nutzung liegt in der Verantwortung des Benutzers.
 ⚠️ Stelle sicher, dass deine lokale Kodi-Installation aktualisiert ist.
+
+### Angepasste Add-ons
+
+Die folgenden Add-ons sind **angepasste Klone** des Originals mit aktualisierten Quellen:
+
+- **plugin.video.xship** - Basierend auf dem Original xship mit erweiterten Scrapern von [mr-evil1/lastship-modules](https://github.com/mr-evil1/lastship-modules)
+  - Original: 17 deutsche Scraper
+  - Aktuell: 28 deutsche Scraper (+64%)
+
+- **plugin.video.xstream** - Basierend auf dem Original xstream mit erweiterten Quellen von [mr-evil1/lastship-modules](https://github.com/mr-evil1/lastship-modules)
+  - Original: 27 deutsche Streaming-Seiten
+  - Aktuell: 26 deutsche Streaming-Seiten (mit +13 neuen Quellen)
 
 ---
 
