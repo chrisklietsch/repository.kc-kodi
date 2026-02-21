@@ -20,6 +20,31 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.vavoo" name="VAVOO.TO - Pure" version="2025.08.08" provider-name="kasi,michaz">
+	<requires>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.dateutil"/>
+		<import addon="inputstream.adaptive"/>
+		<import addon="inputstream.ffmpegdirect" optional="true" />
+		<import addon="script.module.futures" optional="true" />
+		<import addon="script.module.infotagger" optional="true" />
+		<!-- only for debug -->
+		<import addon="script.module.pydevd" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources" />
+	<extension point="xbmc.addon.metadata">
+		<summary>VAVOO.TO Movie and TV Streaming (Pure - VAVOO only, no Stalker)</summary>
+		<description>Stream movies and TV shows from VAVOO.TO</description>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.vavooto" name="VAVOO.TO" version="2025.08.08" provider-name="kasi,michaz">
 	<requires>
 		<import addon="script.module.requests"/>
