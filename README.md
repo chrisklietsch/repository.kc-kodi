@@ -151,6 +151,14 @@ Dieses Repository teilt die Community-Nutzung als Sammlung von Streaming- und IP
 
 Folgende Add-ons wurden vollständig neu angepasst und optimiert:
 
+- **plugin.video.vavooto** - Vollständige Version mit verbesserter Authentifizierung
+  - VAVOO + Stalker IPTV Integration
+  - Optimiertes Token-Caching System
+
+- **plugin.video.vavoo** - Pure Version ohne Stalker
+  - Nur VAVOO Streaming
+  - Leichtgewichtiger und schneller
+
 - **plugin.video.xship** - Mit erweiterten deutschen Scrapern
   - 28 funktionierende Scraper
 
